@@ -1,0 +1,29 @@
+.homePg {
+  position: relative;
+  top: 190px;
+  max-width: 100%;
+}
+.dev {
+  font-size: 10vw;
+  font-family: Arial Black;
+}
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+.contactBtn {
+  margin: 1px;
+  font-family: Arial Black;
+}
+.resumeBtn {
+  margin: 1px;
+  font-family: Arial Black;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  background-color: #343a40 !important;
+}

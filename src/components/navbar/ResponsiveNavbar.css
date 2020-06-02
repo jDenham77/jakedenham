@@ -1,0 +1,48 @@
+a {
+  color: white !important;
+}
+a:hover {
+  color: white !important;
+}
+.navLink:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -8px;
+}
+.name {
+  margin-left: 15%;
+}
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: Arial Black;
+}
+.linkedInIcon {
+  position: relative;
+  color: rgb(14, 118, 168);
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+.linkedBorder:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -8px;
+}
+.gitBorder:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -8px;
+}
+.gitHubIcon {
+  position: relative;
+  margin-top: -9px;
+  margin-bottom: -12px;
+}
+.navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255, 1) !important;
+}
+@media only screen and (max-width: 600px) {
+  .navLink:hover,
+  .navLink:focus,
+  .navLink:active {
+    border-bottom: none;
+  }
+}

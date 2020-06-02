@@ -1,0 +1,41 @@
+.contactMeCss {
+  background-color: #dcdcdc;
+  height: 100vh;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.emailLink {
+  color: black !important;
+  font-family: Arial Black;
+}
+.emailLink:hover {
+  color: #007bff !important;
+}
+.linkedLink {
+  color: black !important;
+  font-family: Arial Black;
+}
+.linkedLink:hover {
+  color: #007bff !important;
+}
+p.phone {
+  text-align: unset;
+  font-family: Arial Black;
+  margin-left: 0%;
+  margin-bottom: 0rem !important;
+}
+.contactTitle {
+  font-family: Arial black;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 4vw !important;
+}
+.contactCard {
+  position: absolute;
+  top: 14px;
+}
+@media only screen and (max-width: 650px) {
+  .contactTitle {
+    font-size: 8vw !important;
+  }
+}

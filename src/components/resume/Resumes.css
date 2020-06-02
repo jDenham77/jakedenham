@@ -1,0 +1,84 @@
+.resumePg {
+  background-color: #dcdcdc;
+  height: auto;
+  max-height: 100%;
+  overflow: auto;
+  padding-bottom: 3% !important;
+}
+canvas {
+  position: relative;
+  top: 25px;
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+}
+.linkedInRes {
+  margin-left: 5px;
+  color: rgb(14, 118, 168) !important;
+}
+p {
+  text-align: center;
+  font-family: Arial Black;
+}
+.title1 {
+  font-family: Arial Black;
+  margin: auto;
+  font-size: 4vw !important;
+  margin-top: -6px !important;
+}
+.resumeCard {
+  position: absolute;
+  top: 2vh;
+}
+@media only screen and (max-height: 1400px) {
+  canvas {
+    position: relative;
+    margin-top: 5px !important;
+    padding: 0;
+    margin: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 770px) {
+  div.rescard {
+    width: 100% !important;
+  }
+  canvas {
+    position: relative;
+    margin-top: 0px !important;
+    padding: 0;
+    margin: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 650px) {
+  canvas {
+    position: relative;
+    margin-top: 3px;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  p.resInfo {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .title1 {
+    margin-left: 5%;
+    font-size: 8vw !important;
+    padding-top: 10px;
+  }
+  .resumePg {
+    background-color: #dcdcdc;
+    height: auto;
+    max-height: 100%;
+    overflow: auto;
+    padding-bottom: 8%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
