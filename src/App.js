@@ -15,7 +15,7 @@ function App() {
       <div>
         <Route path="/" component={Home} exact={true}></Route>
         <Route path="/skills" component={Skills} exact={true}></Route>
-        <Route path="/jakedenham/resume" component={Resume} exact={true}></Route>
+        <Route path="/resume" component={Resume} exact={true}></Route>
         <Route path="/contact" component={ContactMe} exact={true}></Route>
         <Route path="/about" component={AboutMe} exact={true}></Route>
       </div>
