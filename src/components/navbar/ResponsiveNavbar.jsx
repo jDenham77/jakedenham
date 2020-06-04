@@ -1,6 +1,6 @@
 import React from "react";
 import "./ResponsiveNavbar.css";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import IconButton from "@material-ui/core/IconButton";
@@ -13,30 +13,29 @@ class ResponsiveNavbar extends React.Component {
       active: false,
     };
   }
-  goToContactMe = () => {
-    this.props.history.push("/contact");
-  };
   render() {
     return (
       <div className="navBar">
         <Navbar collapseOnSelect expand="lg" bg="dark">
           <div className="container">
-            <Navbar.Brand className="name" href="/jakedenham">
+            <Navbar.Brand className="name" href="/jakdenham/">
               Jacob Denham
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <nav className="m-auto">
-                <button className="navLink" onClick={this.goToContactMe}>
+              <Nav className="m-auto">
+                <Nav.Link className="navLink" href="/skills">
                   Skills
-                </button>
-                <button className="navLink">Resume</button>
-                <button className="navLink" href="/jakedenham/contact">
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/resume">
+                  Resume
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/contact">
                   Contact
-                </button>
-                <button className="navLink" href="/about">
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/about">
                   About
-                </button>
+                </Nav.Link>
                 <div className="float-right linkedBorder">
                   <IconButton
                     className="linkedInBtn"
@@ -55,7 +54,7 @@ class ResponsiveNavbar extends React.Component {
                     <GitHubIcon className="gitHubIcon" style={{ fontSize: 35 }} />
                   </IconButton>
                 </div>
-              </nav>
+              </Nav>
             </Navbar.Collapse>
           </div>
         </Navbar>
