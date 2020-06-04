@@ -24,18 +24,18 @@ class ResponsiveNavbar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto">
-                <Nav.Link className="navLink" href="/jakedenham/skills">
+                <a className="navLink" href="/jakedenham/skills">
                   Skills
-                </Nav.Link>
-                <Nav.Link className="navLink" href="/resume">
+                </a>
+                <a className="navLink" href="/jakedenham/resume">
                   Resume
-                </Nav.Link>
-                <Nav.Link className="navLink" href="/contact">
+                </a>
+                <a className="navLink" href="/contact">
                   Contact
-                </Nav.Link>
-                <Nav.Link className="navLink" href="/about">
+                </a>
+                <a className="navLink" href="/about">
                   About
-                </Nav.Link>
+                </a>
                 <div className="float-right linkedBorder">
                   <IconButton
                     className="linkedInBtn"
