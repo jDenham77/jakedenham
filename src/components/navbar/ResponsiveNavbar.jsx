@@ -18,13 +18,13 @@ class ResponsiveNavbar extends React.Component {
       <div className="navBar">
         <Navbar collapseOnSelect expand="lg" bg="dark">
           <div className="container">
-            <Navbar.Brand className="name" href="/">
+            <Navbar.Brand className="name" href="/jakedenham">
               Jacob Denham
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto">
-                <Nav.Link className="navLink" href="/skills">
+                <Nav.Link className="navLink" href="/jakedenham/skills">
                   Skills
                 </Nav.Link>
                 <Nav.Link className="navLink" href="/resume">
