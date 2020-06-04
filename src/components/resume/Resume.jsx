@@ -23,8 +23,8 @@ export default class App extends Component {
             </p>
           </div>
         </div>
-        <div className="resume">
-          <Document file={MyResume} onLoadSuccess={this.onDocumentLoadSuccess}>
+        <div className="card container resumeContainer">
+          <Document className="card col pdfResume" file={MyResume} onLoadSuccess={this.onDocumentLoadSuccess}>
             <Page pageNumber={this.state.pageNumber} />
           </Document>
         </div>

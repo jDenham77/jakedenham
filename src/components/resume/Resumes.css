@@ -10,8 +10,8 @@ canvas {
   top: 25px;
   padding: 0;
   margin: auto;
-  display: block;
-  width: 800px;
+  /* display: block;
+  width: 800px; */
 }
 .linkedInRes {
   margin-left: 5px;
@@ -31,17 +31,34 @@ p {
   position: absolute;
   top: 2vh;
 }
-@media only screen and (max-height: 1400px) {
-  canvas {
+.pdfResume {
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.resumeContainer {
+  margin-top: 40px;
+}
+@media only screen and (max-height: 1200px) {
+  /* canvas {
     position: relative;
     margin-top: 5px !important;
     padding: 0;
     margin: auto;
     display: block;
+  } */
+  .resumePg {
+    background-color: #dcdcdc;
+    height: auto;
+    max-height: 100%;
+    overflow: auto;
+    padding-bottom: 8%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 @media only screen and (max-width: 770px) {
-  div.rescard {
+  /* div.rescard {
     width: 100% !important;
   }
   canvas {
@@ -50,6 +67,10 @@ p {
     padding: 0;
     margin: auto;
     display: block;
+  } */
+  .react-pdf__Page__canvas {
+    height: 100% !important;
+    width: 100% !important;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -80,5 +101,8 @@ p {
     padding-bottom: 8%;
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .resumeContainer {
+    margin-top: 7%;
   }
 }

@@ -18,13 +18,13 @@ export default class AboutMe extends React.Component {
             <div className="col-md-12 aboutContent1 text">
               While working with LA, I got to learn SQL and ASP .Net. This is where I became a full-stack developer. We worked roughly 65-70
               hours a week making sure to deliver quality content at a quick pace. I also dove into JSX and learned about the power of
-              React, Babel, and Webpack. Here I got to understand how to connect to other API's, for example, I've connected to Amazon S3,
-              Google Maps API, and SendGrid for emails.
+              React, Babel, and Webpack. I also got to connect to other API's, for example, I've connected to Amazon S3, Google Maps API,
+              and SendGrid for emails.
             </div>
             <div className="col-md-12 aboutContent2 text">
               Since my completion with the City of LA, I've been working on my MCSA (Microsoft Certified Solutions Associate) in Web
               Applications. I've completed the Microsoft 70-480 (Programming in HTML, CSS, and JS), and have the 70-486 (ASP .Net MVC)
-              scheduled for 6/30/2020. Almost daily I read "Cracking the Coding Interview" by Gayle Laakmann to work on my algorithms and
+              scheduled for 6/30/2020. Almost daily I read, "Cracking the Coding Interview" by Gayle Laakmann to work on my algorithms and
               data structures. Additionally, I've completed 3 Udemy courses; "JavaScript Algorithms and Data Structures Masterclass" by Colt
               Steele, "Complete guide to building an app with .Net Core and React" by Neil Cummings, and "Querying Microsoft SQL Server with
               Transact-SQL" by Phillip Burton.
