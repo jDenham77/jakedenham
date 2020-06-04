@@ -13,6 +13,9 @@ class ResponsiveNavbar extends React.Component {
       active: false,
     };
   }
+  goToContactMe = () => {
+    this.props.history.push("/contact");
+  };
   render() {
     return (
       <div className="navBar">
@@ -24,18 +27,16 @@ class ResponsiveNavbar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <nav className="m-auto">
-                <a className="navLink" href="/jakedenham/skills">
+                <button className="navLink" onClick={this.goToContactMe}>
                   Skills
-                </a>
-                <a className="navLink" href="/jakedenham/resume">
-                  Resume
-                </a>
-                <a className="navLink" href="/jakedenham/contact">
+                </button>
+                <button className="navLink">Resume</button>
+                <button className="navLink" href="/jakedenham/contact">
                   Contact
-                </a>
-                <a className="navLink" href="/about">
+                </button>
+                <button className="navLink" href="/about">
                   About
-                </a>
+                </button>
                 <div className="float-right linkedBorder">
                   <IconButton
                     className="linkedInBtn"
