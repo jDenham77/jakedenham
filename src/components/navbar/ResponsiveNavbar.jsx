@@ -4,7 +4,6 @@ import { Navbar, Nav } from "react-bootstrap";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import IconButton from "@material-ui/core/IconButton";
-import { Link } from "react-router-dom";
 
 class ResponsiveNavbar extends React.Component {
   constructor(props, context) {
@@ -25,18 +24,18 @@ class ResponsiveNavbar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto">
-                <Link className="navLink" href="/skills">
+                <Nav.Link className="navLink" href="/skills">
                   Skills
-                </Link>
-                <Link className="navLink" href="/resume">
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/resume">
                   Resume
-                </Link>
-                <Link className="navLink" href="/contact">
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/contact">
                   Contact
-                </Link>
-                <Link className="navLink" href="/about">
+                </Nav.Link>
+                <Nav.Link className="navLink" href="/about">
                   About
-                </Link>
+                </Nav.Link>
                 <div className="float-right linkedBorder">
                   <IconButton
                     className="linkedInBtn"
