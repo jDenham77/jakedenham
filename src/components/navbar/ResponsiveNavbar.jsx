@@ -1,6 +1,6 @@
 import React from "react";
 import "./ResponsiveNavbar.css";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import IconButton from "@material-ui/core/IconButton";
@@ -23,7 +23,7 @@ class ResponsiveNavbar extends React.Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="m-auto">
+              <nav className="m-auto">
                 <a className="navLink" href="/jakedenham/skills">
                   Skills
                 </a>
@@ -54,7 +54,7 @@ class ResponsiveNavbar extends React.Component {
                     <GitHubIcon className="gitHubIcon" style={{ fontSize: 35 }} />
                   </IconButton>
                 </div>
-              </Nav>
+              </nav>
             </Navbar.Collapse>
           </div>
         </Navbar>
