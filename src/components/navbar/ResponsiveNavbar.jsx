@@ -14,7 +14,7 @@ class ResponsiveNavbar extends React.Component {
     };
   }
   goToContactMe = () => {
-    this.props.history.push("/contact");
+    this.props.history.push("/#/contact");
   };
   render() {
     return (
