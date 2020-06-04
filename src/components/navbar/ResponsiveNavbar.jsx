@@ -30,7 +30,7 @@ class ResponsiveNavbar extends React.Component {
                 <a className="navLink" href="/jakedenham/resume">
                   Resume
                 </a>
-                <a className="navLink" href="/contact">
+                <a className="navLink" href="/jakedenham/contact">
                   Contact
                 </a>
                 <a className="navLink" href="/about">
