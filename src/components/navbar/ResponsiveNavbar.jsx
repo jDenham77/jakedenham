@@ -24,7 +24,7 @@ class ResponsiveNavbar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto">
-                <Nav.Link className="navLink" href="skills">
+                <Nav.Link className="navLink" href="https://jdenham77.github.io/jakedenham/skills">
                   Skills
                 </Nav.Link>
                 <Nav.Link className="navLink" href="resume">
