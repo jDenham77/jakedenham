@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-// import Img from "./backgroundImg.png";
+import Img from "./backgroundImg.png";
 
 export default class Home extends React.Component {
   goToContactMe = () => {
@@ -12,7 +12,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {/* <img src={Img} alt="Background" className="" /> */}
+        <img src={Img} alt="Background" className="" />
         <div id="home" className="container-fluid homePg">
           <div className="row justify-content-center">
             <p className="dev">DEVELOPER.</p>
