@@ -18,7 +18,7 @@ class ResponsiveNavbar extends React.Component {
       <div className="navBar">
         <Navbar collapseOnSelect expand="lg" bg="dark">
           <div className="container">
-            <Navbar.Brand className="name" href="/">
+            <Navbar.Brand className="name" href="/jakedenham">
               Jacob Denham
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
