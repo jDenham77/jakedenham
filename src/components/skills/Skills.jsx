@@ -34,9 +34,8 @@ export default class Skills extends React.Component {
             <div className="row">
               <div className="display-3 title">Skillset </div>
               <p className="card-text skillsInfo">
-                This page consists of an overview of the skills I possess. Also Listed are the languages, frameworks, libraries and software
-                that I'm currently using. I'm working towards achieving my Microsoft MCSA Web Applications certification. I've passed the
-                70-480 (Programming in HTML, CSS, and Javascript), and I'm taking the 70-486 (ASP .Net MVC) exam on June 30th, 2020.
+                This page consists of an overview of the languages, frameworks, libraries and softwares
+                that I'm currently using.
               </p>
             </div>
           </div>
